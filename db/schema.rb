@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 2019_06_27_231733) do
     t.string "post_code"
     t.string "state"
     t.string "country"
-    t.boolean "admin", default: false
+    t.string "type"
     t.integer "role", default: 1
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -42,7 +42,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       t.string :post_code
       t.string :state
       t.string :country
-      t.boolean :admin, default: false
+      t.string :type
       t.integer :role, default: 1
 
       t.timestamps null: false
