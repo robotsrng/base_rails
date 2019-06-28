@@ -16,7 +16,7 @@ Things you'll probably need to do;
 
 * Refactor the project name
 * Remove unneccesary CSS (included for Bootstrap)
-* Reset git?
+* Reset git by removing the .git and then another git init
 * Run rails db:create and rails db:migrate
 * Run rspec to ensure tests pass
 * ...
