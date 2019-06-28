@@ -1,24 +1,22 @@
-# README
+# README - BASE_RAILS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a BASIC RAILS SETUP
 
-Things you may want to cover:
+Cloning this will set up a standard, running rails web app with;
 
-* Ruby version
+* Coffeescript removed
+* Bootstrap and Jquery installed
+* Example bootstrap templates on homepage
+* RSpec and Capybara for testing, with some suites included
+* Devise Authorization
+* Devise User with additional info column
+* AdminUser with single table inheritance from User model for ease of use
 
-* System dependencies
+Things you'll probably need to do;
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+* Refactor the project name
+* Remove unneccesary CSS (included for Bootstrap)
+* Reset git?
+* Run rails db:create and rails db:migrate
+* Run rspec to ensure tests pass
 * ...
