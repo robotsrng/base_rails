@@ -29,9 +29,10 @@ ActiveRecord::Schema.define(version: 2019_06_27_231733) do
     t.string "address2"
     t.string "city"
     t.string "post_code"
+    t.string "state"
     t.string "country"
-    t.boolean "admin"
-    t.integer "role"
+    t.boolean "admin", default: false
+    t.integer "role", default: 1
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_users_on_email", unique: true
